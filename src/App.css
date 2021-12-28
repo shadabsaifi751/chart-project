@@ -1,6 +1,15 @@
 .apexcharts-legend{
   justify-content: space-around !important;
-  /* top: 90% !important; */
   margin-top: 50px !important;
   z-index: 888 !important;
+}
+Table .tab-2 td span{
+  border-radius: 50px;
+  background-color: #ff6c28;
+  color: #fff;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  /* margin-top: .5rem; */
+   padding: 1rem!important;
 }

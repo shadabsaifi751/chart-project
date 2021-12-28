@@ -1,6 +1,7 @@
 import React from 'react';
 import {Row,Col,Container} from 'reactstrap';
-import ReactApexChart from 'react-apexcharts'
+import ReactApexChart from 'react-apexcharts';
+// import Circle from './circleChart'
 
 class LineChart extends React.Component {
     constructor(props) {
@@ -79,11 +80,12 @@ class LineChart extends React.Component {
            <Container className='' fluid="lg">
                <Row>
                    <Col sm={12} md={12}>
-                   <h3 className='mb-5 fs-4 text-muted'>Sentiment By Source</h3>
+                   <h3 className='mt-5 fs-4 text-muted'>Sentiment By Source</h3>
                    <div id="chart">
                     <ReactApexChart options={this.state.options} series={this.state.series} type="bar" height={550} style={{padding:'50px 0px'}}/>
                     </div>
                    </Col>
+                  
                </Row>
            </Container>
        </section>
