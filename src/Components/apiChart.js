@@ -21,10 +21,10 @@ const ApiChart = () => {
   ));
 
   return (
-        <section>
+        <section className="p-5 ">
             <Container fluid="lg">
                 <Row>
-                    <Col sm={12} md={12} className="">
+                    <Col sm={12} md={12} className="shadow p-4">
                     <h3 className='mb-5 fs-4 text-muted mt-5'>First Chart Using Api data</h3>
                     <Table bordered className="text-secondary mt-5">
                         <thead>
@@ -44,45 +44,45 @@ const ApiChart = () => {
                             <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-primary">3.3k</span></td>
                             <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-success">2.3k</span></td>
                             <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle">1.5k</span></td>
-                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-warning">850</span></td>
-                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-danger">650</span></td>
-                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-secondary">200</span></td>
+                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-warning small">850</span></td>
+                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-danger small2">650</span></td>
+                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-secondary small3">200</span></td>
                         </tr>
                         <tr className="tab-2">
                             <th scope="row">{getKeyword[6]} <br /> <span className="fs-6 fw-normal">5K Mentions</span></th>
                             <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-primary">3.3k</span></td>
                             <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-success">2.3k</span></td>
                             <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle">1.5k</span></td>
-                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-warning">850</span></td>
-                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-danger">650</span></td>
-                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-secondary">200</span></td>
+                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-warning small">850</span></td>
+                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-danger small2">650</span></td>
+                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-secondary small3">200</span></td>
                         </tr>
                         <tr className="tab-2">
                             <th scope="row">{getKeyword[12]} <br /> <span className="fs-6 fw-normal">3K Mentions</span></th>
                             <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-primary">3.3k</span></td>
                             <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-success">2.3k</span></td>
                             <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle">1.5k</span></td>
-                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-warning">850</span></td>
-                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-danger">650</span></td>
-                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-secondary">200</span></td>
+                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-warning small">850</span></td>
+                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-danger small2">650</span></td>
+                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-secondary small3">200</span></td>
                         </tr>
                         <tr className="tab-2">
                             <th scope="row">{getKeyword[18]} <br /> <span className="fs-6 fw-normal">2K Mentions</span></th>
                             <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-primary">3.3k</span></td>
                             <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-success">2.3k</span></td>
                             <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle">1.5k</span></td>
-                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-warning">850</span></td>
-                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-danger">650</span></td>
-                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-secondary">200</span></td>
+                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-warning small">850</span></td>
+                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-danger small2">650</span></td>
+                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-secondary small3">200</span></td>
                         </tr>
                         <tr className="tab-2">
                             <th scope="row">{getKeyword[24]} <br /> <span className="fs-6 fw-normal">1K Mentions</span></th>
                             <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-primary">3.3k</span></td>
                             <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-success">2.3k</span></td>
                             <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle">1.5k</span></td>
-                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-warning">850</span></td>
-                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-danger">650</span></td>
-                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-secondary">200</span></td>
+                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-warning small">850</span></td>
+                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-danger small2">650</span></td>
+                            <td className="position-relative"><span className="position-absolute top-50 start-50 translate-middle bg-secondary small3">200</span></td>
                         </tr>
                         </tbody>
                     </Table>

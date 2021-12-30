@@ -10,6 +10,23 @@ Table .tab-2 td span{
   margin: 0 auto;
   align-items: center;
   text-align: center;
+  height: 60px;
   /* margin-top: .5rem; */
    padding: 1rem!important;
+}
+Table .tab-2 td .small {
+  width: 33% !important;
+    height: 61px !important;
+    line-height: 25px !important;
+}
+Table .tab-2 td .small2{
+  width: 45% !important;
+  height: 56px !important;
+  line-height: 21px !important;
+}
+Table .tab-2 td .small3{
+  width: 48% !important;
+    height: 52px !important;
+    line-height: 18px;
+    font-size: 14px;
 }
