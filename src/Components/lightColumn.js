@@ -76,10 +76,10 @@ class LineChart extends React.Component {
       return (
         
 
-       <section className='py-5'>
+       <section className='py-5 mt-5 '>
            <Container className='' fluid="lg">
-               <Row>
-                   <Col sm={12} md={12}>
+               <Row >
+                   <Col sm={12} md={12} className='shadow-sm p-4'>
                    <h3 className='mt-5 fs-4 text-muted'>Sentiment By Source</h3>
                    <div id="chart">
                     <ReactApexChart options={this.state.options} series={this.state.series} type="bar" height={550} style={{padding:'50px 0px'}}/>

@@ -79,14 +79,14 @@ class Circle extends React.Component {
        <section className='py-5'>
            <Container className='' fluid="lg">
                <Row className='align-items-start justify-content-between'>
-                   <Col sm={12} md={5}>
+                   <Col sm={12} md={5} className='shadow p-4'>
                    <h3 className='mb-5 fs-4 text-muted text-center'>Average Sectiment</h3>
                    <div id="chart">
                    <ReactApexChart options={this.state.options} series={this.state.series} type="radialBar" />
                     </div>
                     <p className=' text-muted mt-4 text-center'>You Definitely need to make an effort to reach your goal</p>
                    </Col>
-                   <Col sm={12} md={5}>
+                   <Col sm={12} md={5} className='shadow p-4'>
                      <Prograss/>
                    </Col>
                </Row>
